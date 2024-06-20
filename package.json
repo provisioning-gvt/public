@@ -1,25 +1,22 @@
 {
-    "name": "app-service-hello-singapore",
-    "description": "Simple Hello Singapore Node.js Azure App Service",
-    "version": "0.0.1",
-    "private": true,
-    "license": "MIT",
-    "author": "Microsoft",
-    "scripts": {
-        "start": "node app.js",
-        "lint": "eslint",
-        "format": "prettier --single-quote --write *.js"    
-    },
-    "devDependencies": {
-        "eslint": "^7.5.0",
-        "prettier": "^2.0.5"
-      },
-    "dependencies": {
-        "body-parser": "^1.19.0",
-        "cors": "^2.8.5",
-        "express": "^4.17.1"
-      },
-      "engines": {
-        "node": ">=10"
-      }
+  "name": "product-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint",
+    "format": "prettier --single-quote --write *.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "sequelize": "^6.37.3",
+    "tedious": "^18.2.0"
+  }
 }
