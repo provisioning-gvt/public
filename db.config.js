@@ -14,7 +14,7 @@ module.exports = {
   },
 };
 */
-
+/*
 module.exports = {
   HOST: "gcc-canary-sqlserver.database.windows.net",
   USER: "adminuser",
@@ -28,3 +28,4 @@ module.exports = {
     },
   },
 };
+*/
