@@ -1,5 +1,5 @@
 require('dotenv').config()
-/*
+
 module.exports = {
   HOST: "gcc-canary-sqlserver.database.windows.net",
   USER: process.env.DB_USER,
@@ -13,7 +13,7 @@ module.exports = {
     },
   },
 };
-*/
+
 /*
 module.exports = {
   HOST: "gcc-canary-sqlserver.database.windows.net",
