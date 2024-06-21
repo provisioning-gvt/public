@@ -10,10 +10,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const db = require('./models'); // Make sure this path is correct
 
 db.sequelize.sync();
-/*
+
 // Routes
 require('./routes/product.routes')(app);
-*/
+
 
 app.get('/', (req, res) => {
   res.send('Hello, Welcome to Singapore!');
