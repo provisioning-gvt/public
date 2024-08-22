@@ -13,19 +13,3 @@ module.exports = {
     },
   },
 };
-
-/*
-module.exports = {
-  HOST: "gcc-canary-sqlserver.database.windows.net",
-  USER: "adminuser",
-  PASSWORD: "Ohmygodthisisbad123",
-  
-  DB: "gcc-canary-sqldatabase",
-  dialect: "mssql",
-  dialectOptions: {
-    options: {
-      encrypt: true,
-    },
-  },
-};
-*/
